@@ -1,0 +1,247 @@
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Column container */
+.row {  
+  display:flex;
+  flex-wrap: wrap;
+  
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+.header
+{
+color:black;
+background-color:lightblue;
+text-shadow:2px 2px white;
+text-align:center;
+padding:2%;
+font-weight:5000;
+font-size:2.1em;
+}
+.header1
+{
+color:black;
+background-image:url(background.jpg);
+width:100%;
+text-shadow:2px 2px white;
+background-size:100% 100%;
+text-align:center;
+padding:10%;
+
+font-weight:1000;
+font-size:300%;
+}
+.sidebar
+{
+padding:2px;
+background-color:grey;
+
+}
+.sidebar img{
+width:100%;
+border-radius:5px;
+}
+.mainbar
+{
+padding:1%;
+background-color:black;
+color:white;
+
+}
+.mainbar img{
+width:100%;
+border-radius:10px;
+height:100%;
+}
+.blockpad{
+padding:1%;
+}
+.footer
+{
+padding:2px;
+background-color:lightblue;
+float:left;
+}
+.footer img{
+height:200px;
+width:100%;
+}
+</style>
+</head>
+
+<body>
+
+<div class="row">
+		<div class="col-12 header">
+		Welcome To Technologies university</div>
+</div>
+
+<div class="row">
+		<div class="col-12 header1">
+		  Technologies University</div>
+</div>
+
+<div class="row">
+     <div class="col-3 sidebar">
+	 <h2>OUR SERVICES</h2>
+	 <img src="sidebar.jpg">
+	 
+	 
+	 <h2>OUR SERVICES</h2>
+	 <img src="institute.jpg">
+	 
+	 
+	 <h2>OUR SERVICES</h2>
+	 <img src="sidebar2.jpg">
+	 
+	 
+	 <h2>OUR SERVICES</h2>
+	 <img src="sidebar3.jpg">
+	 
+	 <h2>OUR SERVICES</h2>
+	 <img src="sidebar1.jpg">
+	 
+	 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+		text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, 
+		but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release</p>
+	</div>
+	
+	
+	
+		<div class="col-9 mainbar">
+		<div class="row">
+		<div class="col-12" align="center"style="text-shadow:1px 1px white;font-size:1.8em; padding:2px">About us</div>
+		</div>
+		<div class="row">
+		<div class="col-4 blockpad"style="height:180px"><img src="mainbar.jpg">
+		</div>
+		<div class="col-8 blockpad">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+		text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
+		but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+		and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.but also the leap into electronic typesetting, remaining essentially unchanged. 
+		It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+		and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+		</div>
+		</div>
+		
+		<div class="row">
+		
+		<div class="col-8 blockpad">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+		text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
+		but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+		and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.but also the leap into electronic typesetting, remaining essentially unchanged. 
+		It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+		and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+		</div>
+		<div class="col-4 blockpad"style="height:170px"><img src="mainbar1.jpg">
+		</div>
+		</div>
+		
+		<div class="row">
+		<div class="col-12 blockpad" align="center"style="height:300px"><img src="mainbar2.jpg"></div>
+		</div>
+		
+		
+		<div class="row">
+		<div class="col-4 blockpad"style="height:180px"><img src="mainbar3.jpg">
+		</div>
+		<div class="col-8 blockpad">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+		text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
+		but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+		and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.but also the leap into electronic typesetting, remaining essentially unchanged. 
+		It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+		and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+		</div>
+		</div>
+		
+		<div class="row">
+		
+		<div class="col-8 blockpad">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+		text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
+		but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+		and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.but also the leap into electronic typesetting, remaining essentially unchanged. 
+		It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+		and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+		
+		</div>
+		<div class="col-4 blockpad"style="height:180px"><img src="mainbar4.jpg">
+		</div>
+		</div>
+		<div class="row">
+		<div class="col-12 blockpad" align="center"style="height:350px"><img src="university.jpg"></div>
+		</div>
+		<div class="row">
+		<div class="col-12 blockpad" align="center"style="height:350px"><img src="university1.jpg"></div>
+		</div>
+		</div>
+</div>
+
+
+<div class="row">
+					
+	<div class="col-3 footer"style="height:200px;"><img src="footer.jpg"></div>
+	
+	<div class="col-3 footer">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+		text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
+		but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release </div>
+	 
+	 <div class="col-3 footer"><img src="footer1.jpg"></div>
+	 
+	 <div class="col-3 footer">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+		text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
+		but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release </div>
+	 
+	
+</div>
+
+
+</body>
+</html>
